@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAXCO SOLUTIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #0073e6;
+        }
+        .content {
+            padding: 20px;
+            background: white;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            color: #0073e6;
+        }
+        .services, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .services div, .contact div {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 20px;
+            background: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TAXCO SOLUTIONS</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="content">
+            <h2>About TAXCO SOLUTIONS</h2>
+            <p>At TAXCO SOLUTIONS, we are dedicated to providing top-notch tax consultancy and accounting services. Our experienced professionals are here to assist you with all your financial needs, ensuring you stay compliant with the latest regulations and maximizing your financial efficiency.</p>
+            <p>Our Services Include:</p>
+            <ul>
+                <li>Tax Consultancy</li>
+                <li>Accounting Services</li>
+                <li>GST Compliance and Filing</li>
+                <li>Financial Planning and Advisory</li>
+                <li>Auditing Services</li>
+            </ul>
+        </div>
+        <div id="services" class="content">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div>
+                    <h3>Tax Consultancy</h3>
+                    <p>Our expert tax consultants provide comprehensive tax planning and compliance services, ensuring you minimize liabilities and stay compliant with all tax regulations.</p>
+                </div>
+                <div>
+                    <h3>Accounting Services</h3>
+                    <p>We offer a full range of accounting services, from bookkeeping to financial statement preparation, to help you maintain accurate financial records.</p>
+                </div>
+                <div>
+                    <h3>GST Compliance and Filing</h3>
+                    <p>Our GST experts assist you with registration, compliance, and filing, ensuring you meet all your GST obligations seamlessly.</p>
+                </div>
+                <div>
+                    <h3>Financial Planning and Advisory</h3>
+                    <p>Our financial advisors work with you to create strategic financial plans tailored to your business needs, helping you achieve long-term financial goals.</p>
+                </div>
+                <div>
+                    <h3>Auditing Services</h3>
+                    <p>We provide thorough and accurate auditing services to ensure your financial statements are reliable and compliant with regulatory standards.</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="content">
+            <h2>Contact Us</h2>
+            <div class="contact">
+                <div>
+                    <h3>Address</h3>
+                    <p>Airport Road, Pulikkal</p>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>8943904305 (also available on WhatsApp)</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:taxcosolutionspkl@gmail.com">taxcosolutionspkl@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 TAXCO SOLUTIONS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
